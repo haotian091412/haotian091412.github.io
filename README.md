@@ -1,6 +1,6 @@
 # Haotian Ma — Online CV
 
-A responsive, accessible academic CV built as a static site for GitHub Pages.
+A simple, responsive academic homepage built as a static site for GitHub Pages.
 
 ## Local preview
 
