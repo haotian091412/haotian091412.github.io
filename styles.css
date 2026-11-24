@@ -77,8 +77,6 @@ h1 { margin: 0 0 16px; font-size: 42px; font-weight: 600; line-height: 1.2; }
 .lead { color: #3f3f3f; font-size: 18px; }
 
 .profile-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
-.profile-links span:last-child { color: var(--muted); }
-
 .profile-card { margin-top: 10px; color: var(--muted); font-size: 14px; line-height: 1.5; }
 .profile-image {
   display: block;
@@ -120,11 +118,6 @@ h3 { margin: 0 0 5px; font-size: 18px; font-weight: 600; line-height: 1.45; }
 .skills-list dt { font-weight: 600; }
 .skills-list dd { margin: 0; color: #444; }
 
-.honor-list { display: flex; flex-direction: column; gap: 12px; }
-.honor-list div { display: grid; grid-template-columns: 90px 1fr; gap: 25px; }
-.honor-list span { color: var(--muted); font-weight: 600; }
-.honor-list p { margin: 0; }
-
 footer {
   display: flex;
   justify-content: space-between;
@@ -155,7 +148,6 @@ footer p { margin: 0; }
   .profile-image { height: 135px; }
   .entry { grid-template-columns: 1fr; gap: 4px; }
   .skills-list div { grid-template-columns: 1fr; gap: 2px; }
-  .honor-list div { grid-template-columns: 65px 1fr; gap: 16px; }
   footer { flex-direction: column; gap: 6px; }
 }
 
